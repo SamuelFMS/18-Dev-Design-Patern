@@ -1,0 +1,23 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ydfbz9s6FquBiO9ohGoY">
+    <mxGraphModel dx="858" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lt2aWIP6ndz7KnqwJkAs-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConnectionBaseDeDonnee&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- instance:&amp;nbsp;ConnectionBaseDeDonnee&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- username: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- password: string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getConnectionBaseDeDonnee&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;ConnectionBaseDeDonnee&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="340" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-4" edge="1" parent="1" style="endArrow=open;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.198;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;innerLoopWaypoints=1;entryPerimeter=0;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.9792" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="260" />
+              <mxPoint x="690" y="224" />
+            </Array>
+            <mxPoint x="660" y="260" as="sourcePoint" />
+            <mxPoint x="660" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
