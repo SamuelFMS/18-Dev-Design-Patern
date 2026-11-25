@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="ydfbz9s6FquBiO9ohGoY">
-    <mxGraphModel dx="1493" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,24 +18,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUPJ_Zq4yln1nPJqTOA0-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;i&gt;Compte&lt;/i&gt;" vertex="1">
-          <mxGeometry height="86" width="160" x="220" y="450" as="geometry" />
+          <mxGeometry height="60" width="160" x="220" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-6" parent="gUPJ_Zq4yln1nPJqTOA0-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-6" parent="gUPJ_Zq4yln1nPJqTOA0-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ somme: nombre" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
         </mxCell>
         <mxCell id="gUPJ_Zq4yln1nPJqTOA0-7" parent="gUPJ_Zq4yln1nPJqTOA0-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="8" width="160" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-8" parent="gUPJ_Zq4yln1nPJqTOA0-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" y="60" as="geometry" />
-        </mxCell>
         <mxCell id="gUPJ_Zq4yln1nPJqTOA0-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CompteCourant" vertex="1">
           <mxGeometry height="34" width="160" x="140" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-18" edge="1" parent="gUPJ_Zq4yln1nPJqTOA0-10" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.425;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="gUPJ_Zq4yln1nPJqTOA0-8" value="">
+        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-18" edge="1" parent="gUPJ_Zq4yln1nPJqTOA0-10" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;edgeStyle=orthogonalEdgeStyle;" value="">
           <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="-80" />
+              <mxPoint x="150" y="-80" />
+            </Array>
             <mxPoint x="70" as="sourcePoint" />
-            <mxPoint x="230" as="targetPoint" />
+            <mxPoint x="150" y="-160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gUPJ_Zq4yln1nPJqTOA0-12" parent="gUPJ_Zq4yln1nPJqTOA0-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
@@ -50,10 +51,10 @@
         <mxCell id="gUPJ_Zq4yln1nPJqTOA0-16" parent="gUPJ_Zq4yln1nPJqTOA0-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="8" width="160" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-20" edge="1" parent="1" source="gUPJ_Zq4yln1nPJqTOA0-14" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.426;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="gUPJ_Zq4yln1nPJqTOA0-8" value="">
+        <mxCell id="gUPJ_Zq4yln1nPJqTOA0-20" edge="1" parent="1" source="gUPJ_Zq4yln1nPJqTOA0-14" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.438;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="gUPJ_Zq4yln1nPJqTOA0-7" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="310" y="734" as="sourcePoint" />
-            <mxPoint x="388" y="600" as="targetPoint" />
+            <mxPoint x="288.1600000000001" y="535.142" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gUPJ_Zq4yln1nPJqTOA0-25" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CompteFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createCompte(): Compte&lt;br&gt;&lt;/p&gt;" vertex="1">
